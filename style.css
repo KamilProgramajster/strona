@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 369;
+    font-style: normal;
+    text-align: center;
+    box-sizing: border-box;
+    
+}
+body{
+    background-image:url(pexels-asadphoto-1320679_Easy-Resize.com.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container{
+    width:90%;
+    height:auto;
+}
+#logo{
+    width:90%;
+    height:10%;
+    padding:10px;
+    margin-top:2px;
+    margin-bottom: 20px;
+    margin-left:10%;
+    margin-right:10%;
+    
+}
+#fota{
+    float:left;
+    margin-left:10%;
+    margin-top:23px;
+    
+    
+    
+}
+h2{
+  font-size: 30px;
+  background-color: rgba(255, 255, 255, 0.151);
+  border-top: 2px solid orange;
+  border-bottom: 2px solid rgb(43, 255, 0) ;
+  border-left: 2px solid rgb(229, 255, 0);
+  border-right: 2px solid blue;
+  color:rgb(43, 255, 0); 
+  border-radius: 20px;
+  text-align: center;
+  
+}
+
+#dc{
+    
+    margin-left:30%;
+    margin-right:30%;
+    width:40%;
+    height:auto;
+    background-color: rgba(255, 255, 255, 0.432);
+    
+    border-radius: 20px;
+    border-top: 2px solid orange;
+    border-bottom: 2px solid rgb(43, 255, 0) ;
+    border-left: 2px solid rgb(229, 255, 0);
+    border-right: 2px solid blue;
+
+}
+.element{
+    width:80%;
+    height:auto;
+    padding:10px;
+    margin-left: 10%;
+    margin-top:5px;
+    margin-bottom:5px;
+    border: 1px solid black;
+    border-radius:20px;
+    background-color:white;
+
+}
+h4{
+    
+    font-size:20px;
+    margin-top:20px;
+    margin-bottom:20px;
+    color:black;
+    
+}
+img{
+    max-width:300px;
+    max-height:300px;
+    border-radius: 4%;
+}
+
+.element:hover{
+    transform: scale(1.1);
+
+
+}
